@@ -54,11 +54,6 @@ h1{
     padding-bottom: 50px;
 }
 
-h2{
-    width: 100%;
-    padding-bottom: 50px;
-}
-
 .business-container{
     display: flex;
     background-color: yellow;
@@ -67,16 +62,21 @@ h2{
     justify-content: center;
 }
 
+.business-h2{
+    width: 50%;
+    height: 5%;
+    padding-bottom: 20px;
+}
+
 .input{
-    width: 100%;
+    width: 51%;
     margin-bottom: 50px;
-    text-align: center;
 }
 
 .input p{
     display: inline-block;
-    margin: 0px 20px;
-    
+    padding-left: 1%;
+    margin-right: 20px;  
 }
 
 .business-col{
@@ -95,6 +95,23 @@ h2{
 .col-30 p{
     border: 1px solid black;
     text-align: center;
+}
+
+.partner-container{
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.partner-col{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: orange;
+    width: 50%;
+    flex-wrap: wrap;
 }
 
 /* COLONNE */
