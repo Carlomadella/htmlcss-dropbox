@@ -17,18 +17,6 @@ header{
     margin: 0 auto;
 }
 
-.col-10{
-    width: 10%;
-    background-color: green;
-    border: 1px solid black;
-}
-
-.col-40{
-    width: 40%;
-    background-color: green;
-    border: 1px solid black;
-}
-
 .dash-right{
     text-align: right;
 }
@@ -66,14 +54,80 @@ h1{
     padding-bottom: 50px;
 }
 
+h2{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.business-container{
+    display: flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input p{
+    display: inline-block;
+    margin: 0px 20px;
+    
+}
+
+.business-col{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: orange;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.business-col .col-30{
+    height: 90%;
+}
+
+.col-30 p{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* COLONNE */
+.col-10{
+    width: 10%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.col-30{
+    width: 30%;
+    height: fit-content;
+    background-color: green;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.col-40{
+    width: 40%;
+    background-color: green;
+    border: 1px solid black;
+}
+
 .col-60{
     width: 60%;
     background-color: green;
     border: 1px solid black;
 }
 
-.business-container{
-    
+.col-100{
+    width: 100%;
+    background-color: green;
+    border: 1px solid black;
 }
 
 /* FLEXBOX e STILE */
