@@ -99,7 +99,7 @@ h1{
 
 .partner-container{
     display: flex;
-    background-color: lightblue;
+    background-color: brown;
     width: 100%;
     justify-content: center;
     padding-top: 50px;
@@ -109,9 +109,34 @@ h1{
     display: flex;
     justify-content: space-between;
     height: 500px;
-    background-color: orange;
     width: 50%;
     flex-wrap: wrap;
+}
+
+.dropbox-container{
+    display: flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.dropbox-col{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.dropbox-h2{
+    width: 51%;
+    height: 5%;
+    margin: 50px 0px 0px 10px;
+}
+
+.photo-content img{
+    width: 100%;
 }
 
 /* COLONNE */
@@ -123,10 +148,9 @@ h1{
 
 .col-30{
     width: 30%;
-    height: fit-content;
     background-color: green;
     border: 1px solid black;
-    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .col-40{
