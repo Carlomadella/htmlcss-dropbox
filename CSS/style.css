@@ -178,9 +178,21 @@ h1{
 .partner-col{
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: fit-content;
     width: 50%;
     flex-wrap: wrap;
+}
+
+.partner-col .col-40{
+    padding: 40px 20px;
+}
+
+.partner-col .col-40 h3 p button{
+    padding: 10px 0px;
+}
+
+.partner-col .col-60 img{
+    width: 100%;
 }
 
 .dropbox-container{
@@ -222,6 +234,13 @@ hr{
     border-width:0;
     color:gray;
     background-color:gray
+}
+
+#white-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
 }
 
 /* footer */
