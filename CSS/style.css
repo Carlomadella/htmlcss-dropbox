@@ -139,6 +139,10 @@ h1{
     width: 100%;
 }
 
+.link{
+    margin-top: 20px;
+}
+
 /* COLONNE */
 .col-10{
     width: 10%;
@@ -148,26 +152,26 @@ h1{
 
 .col-30{
     width: 30%;
-    background-color: green;
+    background-color:cadetblue;
     border: 1px solid black;
     margin-bottom: 20px;
 }
 
 .col-40{
     width: 40%;
-    background-color: green;
+    background-color:coral;
     border: 1px solid black;
 }
 
 .col-60{
     width: 60%;
-    background-color: green;
+    background-color:dimgrey;
     border: 1px solid black;
 }
 
 .col-100{
     width: 100%;
-    background-color: green;
+    background-color:blueviolet;
     border: 1px solid black;
 }
 
